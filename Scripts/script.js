@@ -121,9 +121,8 @@ const checkRequired = (inputArr) => {
 };
 
 const listInvoke = () => {
-
-while (tableBody.firstChild) {
-  tableBody.removeChild(tableBody.firstChild);
+  while (tableBody.firstChild) {
+    tableBody.removeChild(tableBody.firstChild);
   }
   const data = JSON.parse(localStorage.getItem('users'));
   console.log(data);
@@ -136,9 +135,7 @@ while (tableBody.firstChild) {
       td.appendChild(text);
       row.appendChild(td);
     });
-    // tableBody.replaceChild(row,row);
     tableBody.appendChild(row);
-
   });
 };
 
