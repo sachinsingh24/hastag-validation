@@ -1,0 +1,89 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form-Validation#1</title>
+    <link rel="stylesheet" href="/styles/normalize.css" />
+    <link rel="stylesheet" href="/styles/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <div class="">
+      <div class="Ragister-form">
+        <h1>Ragister Form</h1>
+        <form action="#" class="form" id="myForm">
+          <div class="form-control">
+            <label for="UserName">Username</label>
+            <input
+              type="text"
+              name="username"
+              id="username"
+              placeholder="Enter Your UserName" />
+            <small>Username is required</small>
+          </div>
+          <div class="form-control">
+            <label for="email">Email</label>
+            <input
+              type="text"
+              name="email"
+              id="email"
+              placeholder="Enter Your Email" />
+            <small>Email is required</small>
+          </div>
+          <div class="form-control">
+            <label for="number">Number</label>
+            <input
+              id="number"
+              type="text"
+              name="country_code"
+              placeholder="Enter Your number" />
+            <small>Number is required</small>
+          </div>
+          <div class="form-control">
+            <label for="dob">Date of Birth</label>
+            <input
+              type="date"
+              name="date"
+              id="dob"
+              placeholder="Confirm Your Date of Birth" />
+            <small>Date of Birth is required</small>
+          </div>
+          <button type="submit" id="submit">Ragister</button>
+        </form>
+      </div>
+      <div class="Ragister-user">
+        <table id="myTable">
+          <thead>
+            <tr>
+              <th>name</th>
+              <th>Email</th>
+              <th>Number</th>
+              <th>date of birth</th>
+            </tr>
+          </thead>
+          <tbody id="myList">
+            <!-- <tr>
+              <td>sachin</td>
+              <td>sachinsingh24@rocketmail.com</td>
+              <td>7447754388</td>
+              <td>24-01-1993</td>
+            </tr> -->
+          </tbody>
+        </table>
+        <!-- <ol id="myList">
+        </ol> -->
+      </div>
+    </div>
+    <script src="./Scripts/script.js"></script>
+  </body>
+</html>
